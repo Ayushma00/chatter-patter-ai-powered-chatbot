@@ -19,4 +19,4 @@ This is an AI chatbot web application which was created during 24 hrs long hacka
 
 ## How to run on local computer:
 ### Enter this command in your terminal locating this folder and do run the followig command:
-django-admin runserver manage.py
+python manage.py runserver
