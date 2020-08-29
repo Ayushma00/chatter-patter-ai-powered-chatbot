@@ -14,6 +14,7 @@ This is an AI chatbot web application which was created during 24 hrs long hacka
 ### 5)Numpy 1.18.1
 ### 6)Tensorflow 2.2.0
 ### 7)NLTK 3.5
+8)pickle-mixin==1.0.2
 
 
 ## How to run on local computer:
