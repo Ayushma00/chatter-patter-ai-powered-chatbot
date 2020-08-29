@@ -1,8 +1,8 @@
 # CHATTER--PATTER
 This is an AI chatbot web application which was created during 24 hrs long hackathon "QUANTUM HACK"
  
-### This  application is designed especially for all categories to answer their queries. It mainly focus on giving the answers on 
-## AGRULTURE,HEALTH, CULTURE, ECONOMICS and POLITICS related to Nepal.
+#### This  application is designed especially for all categories to answer their queries. It mainly focus on giving the answers on 
+### AGRULTURE,HEALTH, CULTURE, ECONOMICS and POLITICS related to Nepal.
 
 ## Requirements
 
