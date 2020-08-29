@@ -1,0 +1,69 @@
+{
+  "purpose":[
+    {
+      "id_name":"greeting",
+      "questions":["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+      "answers":["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {
+      "id_name":"goodbye",
+      "questions":["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "answers":["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "id_name":"thanks",
+      "questions":["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "answers":["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "id_name":"noanswer",
+      "questions":[" "," ",""],
+      "answers":["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "id_name":"options",
+      "questions":["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+      "answers":["I can guide you through the details of different economics status of Nepal like type of economy Nepal apply,its dependency,its export regions, import regions, economic scores, gdp and many more."]
+    },
+    {
+      "id_name":"type_of_economy",
+      "questions":["What type of economy does Nepal have?","What is the economic condition odf Nepal?","What type of economic system of nepal have?","How do you define the economy of Nepal?"],
+      "answers":["Nepal has a mixed economy which is an economic system that features characteristics of both capitalism and socialism.<br> A mixed economic system allows a level of private economic freedom in the use of capital, but also allows for governments to interfere in economic activities in order to achieve social aims."]
+    },
+    {
+      "id_name":"Dependency",
+      "questions":["What is the economy of Nepal depended on?","What is the dependency of Nepal economy?","How is the economic system of Nepal depended?","In which sectors the overall economy of Nepal depended?"],
+      "answers":["he economy is heavily dependent on <strong>imports of basic materials</strong> and on <strong>foreign markets for its forest and agricultural products.</strong><br> Nepal imports essential commodities, such as fuel, construction materials, fertilizers, metals, and most consumer goods, and exports such products as rice, jute, timber, and textiles."]
+    },
+    {
+      "id_name":"Export_destination",
+      "questions":["What are the major export destination of Nepal?","In which country Nepal exports its goods?","What are the percentage of the exports in different country that Nepal make?"],
+      "answers":["The major destination that Nepal make is given as:<br> <img src='https://cdn.britannica.com/19/184619-050-57D0E3CE/World-Data-export-destinations-pie-chart-Nepal.jpg' width='400'> "]
+    },
+    {
+      "id_name":"Import_source",
+      "questions":["What are the major import sources for Nepal?","Which country does Nepal import most?","What are the percentage of imports for Nepal?"],
+      "answers":["The major country that Nepal imports its goods can be explained from this graph below:<br> <img src='https://cdn.britannica.com/18/184618-050-4C7436F3/World-Data-import-sources-pie-chart-Nepal.jpg' width='400'> "]
+    },
+    {
+      "id_name":"economic growth",
+      "questions":["What is the  economic growth of Nepal?","What is the condition of economy of Nepal?","Is economy of Nepal is poor?","What is the average growth rate of Nepal?"],
+      "answers":["Nepal achieved economic growth of 7 percent for the last three years, with an official target of 8 percent in 2020, but the global pandemic shock looks to derail Kathmandu’s plans.<br><br>pal had only achieved an average economic growth of 4.4 percent for two decades until 2015 due to political instability, low electricity production, and lackluster foreign investment."]
+    },
+    {
+      "id_name":"Gross Domestic Product",
+      "questions":["List the GDP of Nepal by sector?","What is the GDP growth of Nepal?","What is the GDP growth of Nepal?","List the information about gross Domestic Product of Nepal?"],
+      "answers":["<h2>GDP by sector :</h2> <br><h2>Agriculture: 27%</h2><br><h2>Industry: 13.5%</h2><br><h2>Service: 59.5%</h2><br><br><h2>GDP growth: 6.7% in 2018/19</h2><br>1.8% in 2019/2020<br>2.1% in 2020/2021"]
+    },
+    {
+      "id_name":"score",
+      "questions":["What is the economic rank of Nepal across the world?","What is the freedom score of Nepal?",""],
+      "answers":["Nepal’s economic freedom score is <strong>54.2</strong>, making its economy the <strong>139th</strong> freest in the 2020 Index. Its overall score has increased by 0.4 point with improvements in scores for labor freedom and government integrity. <strong>Nepal is ranked 34th among 42 countries in the Asia–Pacific region, and its overall score is well below the regional and world averages.</strong>"]
+    },
+    {
+      "id_name":"factors affecting economy",
+      "questions":["What are the factors that affect the economy of Nepal?","List the factors that affects the economy","main reason factors for growth of Nepal Economy?"],
+      "answers":["Six Factors Of Economic Growth:<br><strong> Natural Resources </strong>: The discovery of more natural resources like oil, or mineral deposits may boost economic growth as this shifts or increases the country's Production Possibility Curve.<br><strong>Physical Capital or Infrastructure.</strong><br><strong>Population or Labor.</strong><br><strong>Human Capital</strong><br><strong>Technology</strong><br><strong>Law</strong><br>"]
+    }
+  ]
+}

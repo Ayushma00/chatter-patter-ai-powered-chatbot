@@ -1,0 +1,64 @@
+{
+  "purpose":[
+    {
+      "id_name":"greeting",
+      "questions":["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+      "answers":["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {
+      "id_name":"goodbye",
+      "questions":["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "answers":["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "id_name":"thanks",
+      "questions":["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "answers":["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "id_name":"noanswer",
+      "questions":[" "," ",""],
+      "answers":["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "id_name": "options",
+       "questions": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+       "answers": ["I can guide you through cultures, festival, costumes of Nepal"]
+    },
+    {
+      "id_name":"main problem",
+      "questions":["What is the main issue that are facing in the environment?","What are the major problem of environment of Nepal?","What are the problem that Nepal environment is facing?"],
+      "answers":["<strong>Climate change<strong> is the big environmental problem that humanity will face over the next decade, but it isn't the only one. We'll take a look at some of them — from water shortages and loss of biodiversity to waste management — and discuss the challenges we have ahead of us."]
+    },
+    {
+      "id_name":"customs of Nepal",
+      "questions":["What are the customs of Nepal","What are the religion of Nepal?","What are the main religion and custom of Nepal?"],
+      "answers":["Most of the customs are brought from Hindu and Buddhist traditions. People of diverse religion and belief are the dominant features of Nepali society. Some of them are:<br>1) Still, the marriage arrangements are decided by the parents instead of the boy or girl. 2) The Cow is worshipped as goddess <br> 3) Mostly, the males work outside and female in the houses, but it is slowly eradicating. "]
+    },
+    {
+      "id_name":"festival",
+      "questions":["What are the festivals celebrated in Nepal?","What are main holidays of Nepal?"],
+      "answers":["Nepal is home for several indigenous and ethnic groups. It is a melting pot of multilingual and multicultural dimension. More than 60 ethnic groups have been recorded and many are still exploring, who are prosperous with their own language, costumes and traditions. They have their unique festivals in celebration. In Nepal, people celebrate national festivals and local fair for the whole year in different months. Some of the representative festivals and events are as follows.<br> <strong>Dashain, Tihar, Maghe Sankaranti, Fagupurnima and Maha Shivaratri</strong>"]
+    },
+    {
+      "id_name":"ethnic",
+      "questions":["What are the ethnic groups of Nepal?","What are different caste of Nepal?"],
+      "answers":["Ethnic groups in Nepal are a product of both the colonial and state-building eras of Nepal. The groups are delineated using language, ethnic identity or the caste system in Nepal. They are categorized by common culture and endogamy. Endogamy carves out ethnic groups in Nepal.The ethnic groups of Nepal (2011):<br>Kshetri (16.6%)<br>Brahman-Hill (12.2%)<br>Magar (7.1%)<br>Tharu (6.6%)<br> Tamang (5.8%)<br> Newar (5%)<br> Kami (4.8%)<br>Nepalese Muslims (4.4%)<br> Yadav (4%)<br>Rai (2.3%) <br>Others (31.2%)"]
+    },
+    {
+      "id_name":"language",
+      "questions":["What are the different language spoken in Nepal?","How many language are spoken in Nepal?","What is the mother tongue of Nepal?"],
+      "answers":["The 2011 National census lists 123 Nepalese languages spoken as a mother tongue (first language) in Nepal. The discovery of six additional languages since then brings the count to 129. Most belong to the Indo-Aryan and Sino-Tibetan language families."]
+    },
+    {
+      "id_name":"dress code",
+      "questions":["What are the dress code of Nepal?","What are the dresses that represents the culture of Nepal?"],
+      "answers":["In Nepal, the traditional male dress, which is also the national dress, is the Nepali shirt called <strong>daura and suruwal</strong>.<br> It is closed-neck shirt with five pleats and eight strings that serve to tie it around the body.<br>For girls, it is Sari or Gunyo Cholo"]
+    },
+    {
+      "id_name":"living goddess",
+      "questions":["What is living goddess in Nepal?","Who is kumari devi ?"],
+      "answers":["Kumari, or Kumari Devi, or Living Goddess – Nepal, is the tradition of worshiping young prepubescent girls as manifestations of the divine female energy or devi in Hindu and Buddhist religious traditions. The word Kumari is derived from the Sanskrit Kaumarya, meaning 'Young'.<br> <strong>Trishna Shakya</strong> is current Kumari of Kathmandu."]
+    }
+    ]
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chatbot | Agriculture</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <style media="screen">
+    .button{
+      border-radius: 4px;
+      padding: 10px 24px;
+      background-color: #87CEEB;}
+    .button:hover {background-color: #008B8B;
+    }
+    .qabox{
+      background-color:#E0FFFF;
+      color: #00008B;
+      border-radius: 5px;
+    }
+    body{
+      background-color:#ADD8E6;
+      font-family: "Montserrat", sans-serif;
+    }
+    h1{
+      font-family: "Times New Roman", Times, serif, Helvetica;
+      color: #00008B;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class='text-center mt-3'>Agriculture Chatbot</h1>
+
+  <div class="row text-left mt-4">
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-8 qabox p-3">
+      <a href="#bottom" class="float-right">Go to Bottom</a>
+      {% for ques, ans in fuse %}
+
+      <p>Q: {{ques}}</p>
+
+      <p>A: {{ans|safe}}</p>
+      {% endfor %}
+      <hr>
+      <form action="{% url 'agriculture:agriculture' %}" method="post">
+        {% csrf_token %}
+        <textarea name="ques" class='rounded bg-light' placeholder="Enter your query" rows="3" cols="50" style='width:100%'></textarea>
+<a href="{% url 'home:home' %}">Go Back</a> <input type="submit" id="bottom" name='button' value='Submit' class="button float-right">
+      </form>
+    </div>
+    <div class="col-lg-2">
+      <form action="{% url 'agriculture:agriculture' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Clear History" name='button' class="button float-left">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

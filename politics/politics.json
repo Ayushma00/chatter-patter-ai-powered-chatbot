@@ -1,0 +1,58 @@
+{
+  "purpose":[
+    {
+      "id_name":"greeting",
+      "questions":["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+      "answers":["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {
+      "id_name":"goodbye",
+      "questions":["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "answers":["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "id_name":"thanks",
+      "questions":["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "answers":["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "id_name":"noanswer",
+      "questions":[" "," ",""],
+      "answers":["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {"id_name": "options",
+     "questions": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "answers": ["I can guide you through details of different politics status in Nepal like: <br> polical condition"]
+    },
+    {
+      "id_name":"polical_condition",
+      "questions":["What is the political condition of Nepal?","Which party rules the nepal currently?"],
+      "answers":["The politics of Nepal functions within the framework of a parliamentary republic with a multi-party system. Executive power is exercised by the Prime Minister and his/her cabinet, while legislative power is vested in the Parliament. <br> <img src='https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fa2%2FNew_Emblem_of_Nepal.svg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEmblem_of_Nepal&tbnid=gk1ti-_slMSV7M&vet=12ahUKEwj8v7bJqLPrAhU823MBHf52BKwQMygBegUIARC3AQ..i&docid=tuyoSURyaesyPM&w=800&h=671&q=national%20logo%20of%20nepal&safe=active&client=ubuntu&ved=2ahUKEwj8v7bJqLPrAhU823MBHf52BKwQMygBegUIARC3AQ' width='200'> <br>"]
+    },
+    {
+      "id_name": "royal_massacre",
+      "questions": [ "When was royal Massacre occured?", "What happened during Royal Massacre?", "Who died during 2001 A.D?", "What happened after Royal Massacre?", "Give me list of common crops in terai" ],
+      "answers": [ "The Royal Massacre happened on 1 June 2001, in which members of the royal family, King Birendra, Queen Aishwarya, Crown Prince Dipendra, Prince Nirajan, as well as many others, were killed in the massacre. However, after the massacre, the Crown Prince survived for a short while in a coma.Although the prince never regained consciousness before dying, Crown Prince Dipendra was the monarch under the law of Nepali royal succession. Two days later after his death, the late King's surviving brother Gyanendra was proclaimed as a king. <br> <iframe width='420' height='315' src='https://www.youtube.com/watch?v=NrOaJA2Zzz8'></iframe> <br>"]
+    },
+    {
+      "id_name": "prime_minister",
+      "questions": [ "Who is the Prime Minister of Nepal?", "Who is rulling the Nepal?", "When did KP Oli become Prime minister?", "What are work of KP Oli?", "What did KP Oli do as Prime Minister?" ],
+      "answers": [ "Khadga Prasad Sharma Oli born 22 February 1952, more commonly known as K. P. Sharma Oli, is a Nepalese politician and the current Prime Minister of Nepal.Oli previously served as prime minister from 11 October 2015 to 3 August 2016 and was the first elected prime minister under the newly adopted Constitution of Nepal.<br> Oli was appointed Prime Minister for a second time[18] on 15 February 2018 after CPN (UML) became the largest party in the House of Representatives.<br> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/KP_Sharma_Oli.png/220px-KP_Sharma_Oli.png' width='200'><br> In May 2020, the Oli government unveiled new maps of the country including the disputed territories of Kalapani, Lipulekh and Limpiyadhura in response to the inauguration of a road across the Lipulekh pass by the Indian government" ]
+    },
+    {
+      "id_name":"president_of_nepal",
+      "questions": [ "Who is the president of Nepal?", "When did Bidhya Devi Bhandari became president?", "What did the president do?", "What did Bhidya Devi Bhandari did?" ],
+      "answers": ["<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bidhya_Devi_Bhandari.jpg/220px-Bidhya_Devi_Bhandari.jpg' width='200'><br> Bidhya Devi Bhandari (born 19 June 1961) is a Nepalese politician, serving as the 2nd President of Nepal, in office since 28 October 2015. She is the first woman to hold the office in the country.<br>"]
+    },
+    {
+      "id_name":"first_political_party",
+      "questions":["Which is the first political party of Nepal?","When was the fiest political party of Nepal established in Nepal?","Tell us about the political party of Nepal?","Mention us about the political party of Nepal?"],
+      "answers":["In early 1959, Tribhuvan's son <strong>King Mahendra</strong> issued a new constitution, and the first democratic elections for a national assembly were held. The Nepali Congress Party was victorious and their leader,<strong> Bishweshwar Prasad Koirala</strong> formed a government and served as prime minister."]
+    },
+    {
+      "id_name":"house speaker",
+      "questions":["Who is the house speaker of Nepal?","Who is the current house speaker of Nepal"],
+      "answers":["<strong>Agni Prasad Sapkota</strong> is the house speaker of Nepal."]
+    }
+    ]
+  }

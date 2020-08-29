@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <style media="screen">
+    @media (min-width: 990px) {
+      .box {
+        width: 100%;
+        margin: auto;
+      }
+    }
+    @media (max-width: 989px) {
+      .box {
+        width: 50%;
+        margin: auto;
+      }
+    }
+    .image:hover {
+      opacity: 0.3;
+    }
+    body {
+      background-color: #ADD8E6;
+      font-family: "Montserrat", sans-serif;
+    }
+    h1{
+      color:blue;
+      font-family: "Times New Roman", Times, serif, Helvetica;
+    }
+    footer {
+      background-color: #66CDAA;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class='text-center p-1 mb-5 mt-3'>CHATTER-PATTER</h1>
+  <div class="row mb-4 ml-5 mr-1">
+    <div class="col-lg-3 text-center">
+      <a href="{% url 'agriculture:agriculture' %}"><img src='https://www.openaccessgovernment.org/wp-content/uploads/2018/09/dreamstime_s_99609915.jpg' class="rounded image mx-auto d-block" width='300' height="300"></a>
+      <div class="box text-center mt-2">
+        <h2>Agriculture</h2>
+        <p>This bot talks about the various agriculture related topics </p>
+      </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-3 text-center">
+      <a href="{% url 'health:health' %}"><img src='https://fontmeme.com/images/womens-health-mag.png' class="rounded image mx-auto d-block" width='300' height="300"></a>
+      <div class="box text-center mt-2">
+        <h2>Health</h2>
+        <p>This bot generally talks on woman health and gives you brief idea of what to eat and health tips during mensturation </p>
+      </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-3 text-center">
+      <a href="{% url 'politics:politics' %}"><img src='https://www.imf.org/external/pubs/ft/fandd/2020/06/images/frieden-1600.jpg' class="rounded image mx-auto d-block" width='300' height="300"></a>
+      <div class="box text-center mt-2">
+        <h2>Politics</h2>
+        <p>This bot talks about the political condition of Nepal </p>
+      </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+  </div>
+  <div class="row m-3 p-1">
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-3 text-center">
+      <a href="{% url 'economics:economics' %}"><img src='https://www.nationalbusinessmirror.com/wp-content/uploads/2020/07/economic-situation.jpg' class="rounded image mx-auto d-block" width='300' height="300"></a>
+      <div class="box text-center mt-2">
+        <h2>Economics</h2>
+        <p>This bot talks about the economics condition of Nepal </p>
+      </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-3">
+      <a href="{% url 'culture:culture' %}"><img src='https://i.pinimg.com/originals/59/c3/f1/59c3f179fa50d6439ecb6593f8f1d1b0.jpg' class="rounded image mx-auto d-block" width='300' height="300"></a>
+      <div class="box text-center mt-2">
+        <h2>Culture</h2>
+        <p>This bot gives you the knowledge of cultural and environment theme of Nepal </p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+    </div>
+  </div>
+
+</body>
+
+<footer>
+<div class="row mt-4 p-3">
+
+  <div class="col-lg-1">
+
+  </div>
+  <div class="col-lg-4 text-center">
+    <h3>Nepal Covid-19 Update:</h3>
+      <p>Total Positive Cases: {{positive}}</p>
+      <p>Total Recovered: {{recovered}}</p>
+      <p>Total Deaths: {{deaths}}</p>
+  </div>
+  <div class="col-lg-2">
+
+  </div>
+  <div class="col-lg-4 text-center">
+        <h3>Contact us:</h3>
+        <p>pantaayushma77@gmail.com</p>
+        <p>dahalshrijak@gmail.com</p>
+        <p>I.O.E. Thapathali Campus</p>
+  </div>
+  <div class="col-lg-1">
+
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-lg text-center">
+    <p>© 074BEX001/041</p>
+  </div>
+
+</div>
+</footer>
+
+</html>
